@@ -1,7 +1,3 @@
-# Happy
-
-## Visit orphanages and change many children's day.
-
 ## Available Scripts
 
 In the project directory, you can run:

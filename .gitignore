@@ -10,6 +10,7 @@ node_modules
 
 # production
 /build
+/uploads/*!.gitkeep
 
 # misc
 .DS_Store

@@ -6,7 +6,7 @@ import Leaflet from "leaflet";
 
 import "leaflet/dist/leaflet.css";
 
-import mapMarkerImg from "../images/map-maker.svg";
+import mapMarkerImg from "../images/map-marker.svg";
 import "../styles/pages/orphanages-map.css";
 
 const mapIcon = Leaflet.icon({
@@ -59,7 +59,7 @@ function OrphanagesMap() {
             className="map-popup"
           >
             Seminário Diocesano
-            <Link to="">
+            <Link to="/orphanages/1">
               <FiArrowRight size={32} color="#FFF"></FiArrowRight>
             </Link>
           </Popup>
@@ -67,7 +67,7 @@ function OrphanagesMap() {
 
       </Map>
 
-      <Link to="" className="create-orphanage">
+      <Link to="/orphanages/create" className="create-orphanage">
         <FiPlus size={32} color="#fff"></FiPlus>
       </Link>
     </div>
